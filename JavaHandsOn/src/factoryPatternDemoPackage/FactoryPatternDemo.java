@@ -22,5 +22,9 @@ public class FactoryPatternDemo {
 
 		// call draw method of square
 		shape3.draw();
+		
+		// get an object of null type and call its draw method.
+		Shape shape4 = shapeFactory.getShape(null);
+		shape4.draw();
 	}
 }

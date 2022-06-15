@@ -54,5 +54,3 @@ public class NullPointerExceptionDemoClass {
 // Ways to avoid null pointer
 // Try to initialize objects with actual values rather than null.
 // Try not to return null from a method.
-
-
